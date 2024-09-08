@@ -1,0 +1,93 @@
+body{
+    background-color:#212529;
+}
+
+.ayu{
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.text{
+    color: aliceblue;
+    margin: 15px;
+    font-family: "SUSE", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 20px;
+}
+
+.mypic{
+    float: left;
+}
+
+.aboutmetext{
+    height: auto;
+    width:50%;
+    float:right;
+}
+
+.aboutmecont{
+    display: inline-block;
+}
+
+.img{
+    border-radius: 5%;
+    height: 300px;
+    width: 100%;
+}
+
+p{
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.procont{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.pro{
+    margin-bottom: 25px;
+    height: auto;
+    max-width: 400px;
+    border: 1px solid #6c757d;
+    border-radius: 2%;
+}
+
+.name{
+    font-weight: 600;
+}
+
+@media (max-width:768px){
+    h1{
+        text-align: center;
+    }
+    .aboutmecont{
+       width: 100%;
+       text-align: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .contact{
+        text-align: left;
+    }
+    .mypic{
+        float: none;
+    }
+    .aboutmetext{
+        float:none;
+        margin: auto;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
