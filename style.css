@@ -23,6 +23,7 @@ h1{
 
 .mypic{
     float: left;
+    max-width: 317px;
 }
 
 .aboutmetext{
@@ -35,8 +36,16 @@ h1{
     display: inline-block;
 }
 
+nav{
+    background-color: #dee2e6bf;
+}
+
+.dropdown:hover .dropdown-items {
+    display: block;
+}
+
 .img{
-    border-radius: 5%;
+    border-radius: 2% 2% 0% 0%;
     height: 300px;
     width: 100%;
 }
@@ -51,15 +60,17 @@ h3{
 }
 
 .procont{
+    padding: 28px;
     display: flex;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 
 .pro{
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     height: auto;
     max-width: 400px;
-    border: 1px solid #6c757d;
+    border: 0.1px solid #6c757d;
     border-radius: 2%;
 }
 
@@ -67,7 +78,7 @@ h3{
     font-weight: 600;
 }
 
-@media (max-width:768px){
+@media (max-width:873px){
     h1{
         text-align: center;
     }
@@ -83,11 +94,18 @@ h3{
     }
     .mypic{
         float: none;
+        display: grid;
+        margin: auto;
     }
     .aboutmetext{
         float:none;
         margin: auto;
         margin-top: 15px;
         width: 100%;
+    }
+    .pro{
+        display: grid;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }
