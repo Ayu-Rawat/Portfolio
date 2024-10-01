@@ -1,3 +1,5 @@
+/* added a background colour  */
+
 body{
     background-color:#212529;
 }
@@ -39,6 +41,8 @@ h1{
 nav{
     background-color: #dee2e6bf;
 }
+
+/* making the dropdown hover  */
 
 .dropdown:hover .dropdown-items {
     display: block;
@@ -85,32 +89,43 @@ h3{
     font-weight: 600;
 }
 
+/* making it reponsive  */
+
 @media (max-width:873px){
+    
     h1{
         text-align: center;
     }
+
     .aboutmecont{
        width: 100%;
        text-align: center;
     }
+
     .name{
         text-align: center;
     }
+
     .contact{
         text-align: left;
     }
+
     .mypic{
         max-width: 317px;
         float: none;
         display: grid;
         margin: auto;
     }
+
     .aboutmetext{
         float:none;
         margin: auto;
         margin-top: 15px;
         width: 100%;
     }
+
+    /* making the project card center align  */
+
     .pro{
         display: grid;
         margin: auto;
