@@ -9,6 +9,15 @@ body{
     margin-bottom: 75px;
 }
 
+.svg{
+    margin-right: 12px;
+    margin-top: 0px;
+}
+
+.svg1{
+    margin-left: 15px;
+}
+
 .text{
     color: aliceblue;
     margin: 15px;
